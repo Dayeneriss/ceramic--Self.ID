@@ -1,0 +1,75 @@
+/* styles/Home.module.css */
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding-top: 60px; /* Ajoutez un padding-top pour compenser la hauteur de la barre de navigation */
+}
+
+.navbar {
+  position: fixed; /* Fixez la position en haut */
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #6a0dad;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #666;
+  margin: 20px 0;
+}
+
+.button {
+  padding: 10px 20px;
+  background: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-bottom: 20px; /* Ajoutez un espace sous le bouton */
+}
+
+.button:hover {
+  background: #005bb5;
+}
+
+.button:disabled {
+  background: #ccc;
+}
+
+.content {
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.mt2 {
+  margin-top: 20px;
+}
+
+.flexCol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
